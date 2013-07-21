@@ -1,9 +1,11 @@
-=== ABOUT ===
+ABOUT
+-----
 
 This simple demonstration of DBISAM's database usaage was built to show some of the capabilities of DBISAM, and to show how similar it is to Borland's BDE.  It was originally written for the Oregon Delphi User Group by David Cornelius, November, 2004, and requires DBISAM 4 and Delphi 6 Pro or greater.
 
 
-=== SETUP ===
+SETUP
+-----
 
 Two tables are used in this demo, both coming from Borland's DBDemos, data files that ship with several versions of the Delphi compiler.  The two tables are customer and orders.  Before running this program, use DBISAM's BDE Transfer Utility to convert the DBDemos tables to DBISAM format.  The program as it was originally written uses a "data" subdirectory under the application's directory for it's database directory.  Create this directory before running the BDE Transfer utility.  I would suggest transfering all data files as the demonstration of the DBISAM's backup feature will be more interesting with more files.  In addition, you may want to extend this demo for your own learning and/or demonstrating purposes and use additional tables.
 
@@ -14,7 +16,8 @@ table by changing the CustNo field to AutoInc; and
 password "odug" (without the quotes, of course).
 
 
-=== FEATURES ===
+FEATURES
+--------
 
 The following DBISAM features and techniques are demonstrated in DBISAMDemo:
 
@@ -27,13 +30,8 @@ The following DBISAM features and techniques are demonstrated in DBISAMDemo:
 * Using the Backup feature with progress and log event handling.
 
 
-=== DISCLAIMER, ETC. ===
-
-This software is provided as-is with no guarantees whatsoever and is meant for simple educational and demonstration purposes only.  Anyone may take this code and modify it for their own needs without restriction.
-
-
 November 9, 2004
 
-David E. Cornelius
-Cornelius Concepts
+David E. Cornelius * 
+Cornelius Concepts * 
 http://corneliusconcepts.com
